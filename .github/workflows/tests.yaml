@@ -31,7 +31,7 @@ jobs:
 #         run: go test -race -v ./...
 #         timeout-minutes: 15
   benchmarks:
-    runs-on: self-hosted
+    runs-on: architect-runner-OSeaA2jZ
     steps:
       - name: Checkout
         uses: actions/checkout@v4
