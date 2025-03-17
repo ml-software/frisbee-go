@@ -31,7 +31,7 @@ jobs:
 #         run: go test -race -v ./...
 #         timeout-minutes: 15
   benchmarks:
-    runs-on: architect-template-cX1qljYf
+    runs-on: architect-ubuntu-24.04-4cpu
     steps:
       - name: Checkout
         uses: actions/checkout@v4
